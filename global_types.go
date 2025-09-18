@@ -1,10 +1,9 @@
 package woocommerce
 
 type MetaData struct {
-  ID           int          `json:"id,omitempty"`
-  Key          string       `json:"key,omitempty"`
-  Value        interface{}  `json:"value,omitempty"`
-  DisplayKey   string       `json:"display_key"`
+    ID    int    `json:"id"`
+    Key   string `json:"key"`
+    Value string `json:"value"`
 }
 
 type Self struct {
