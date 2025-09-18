@@ -3,7 +3,7 @@ package woocommerce
 type MetaData struct {
     ID    int    `json:"id"`
     Key   string `json:"key"`
-    Value string `json:"value"`
+    Value interface{} `json:"value"`
 }
 
 type Self struct {
