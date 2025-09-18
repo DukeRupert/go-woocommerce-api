@@ -1,10 +1,10 @@
 # go-woocommerce-api
-A Woocommerce API Golang Wrapper for the [Woocommerce Rest API (v3)](https://woocommerce.github.io/woocommerce-rest-api-docs/)
+A Woocommerce API Golang Wrapper for the [Woocommerce Rest API (v3)](https://woocommerce.github.io/woocommerce-rest-api-docs/). A fork of [github.com/dinistavares/go-woocommerce-api](https://github.com/dinistavares/go-woocommerce-api)
 
 # Install
 
 ```console
-$ go get github.com/dinistavares/go-woocommerce-api
+$ go get github.com/dukerupert/go-woocommerce-api
 ```
 
 # Usage
@@ -13,7 +13,7 @@ Create a new API client and authenticate with your REST API keys. You should spe
 
 ```go
 import (
-  "github.com/dinistavares/go-woocommerce-api"
+  "github.com/dukerupert/go-woocommerce-api"
 )
 
 func main(){
